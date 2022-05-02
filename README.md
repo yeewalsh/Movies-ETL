@@ -4,13 +4,13 @@ Using ETL process to analyze and predict movie popularity
 ## Overview
 The code contained follows the extract, transform, and load method using movie data from two separate sources including .csv and .json. The code accomplishes the following tasks:
 1. An ETL function which reads three data files
-[ETL Function Test]('ETL_function_test.ipynb')
+[ETL Function Test](ETL_function_test.ipynb)
 2. Extracts and transforms Wikipedia data in .json format
-[Clean Wikipedia Movies]('ETL_clean_wiki_movies.ipynb')
+[Clean Wikipedia Movies](ETL_clean_wiki_movies.ipynb)
 3. Extracts and transforms Kaggle data in .csv format
-[Clean Kaggle Data]('ETL_clean_kaggle_data.ipynb')
+[Clean Kaggle Data](ETL_clean_kaggle_data.ipynb)
 4. Creates a PostgreSQL database to save the DataFrames
-[Create Database]('ETL_create_database.ipynb')
+[Create Database](ETL_create_database.ipynb)
 
 ## Code Explanation
 The function clean_movie() is designed to consolidate the columns of the Wikipedia .json file, removing the random Languages and consolidating the duplicate column information. 
